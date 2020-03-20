@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial,Helvetica,sans-serif;
+  font-weight:normal;
+}
+.App {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(34, 34, 34);
+  height: 100vh;
+  color: rgb(250, 250, 250);
+}
+.App-title {
+  font-size: 50px;
+  padding: 25px 0;
+}
+
+
+@media (max-width: 900px) {
+  .Stopwatch {
+    margin-bottom: 40px;
+  }
+}
+
+.Stopwatch {
+  border: 2px solid grey;
+  border-radius: 4px;
+  padding: 20px;
+  width: 100%;
+  background-color: rgb(22, 27, 31);
+  box-shadow: 0 3px 6px rgb(12, 12, 12);
+}
+
+.Stopwatch-header {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+button {
+  background-color: #202b33;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #106ba3;
+}
+
+.Stopwatch button {
+  padding: 12px 32px;
+  font-size: 20px;
+}
+.Stopwatch-display {
+  padding: 40px 0;
+  font-size: 48px;
+  color: white;
+}
+
+.Stopwatch-text{
+
+}
+
+.activeOption{
+  background-color: red;
+}
+
+Link{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.bottomNavigationOption{
+  float: left;
+}
+
+.bottomNavigationOption a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.bottomNavigationOption a:hover:not(.activeOption){
+  background-color: #111;
+}
+
+.carouselCaption{
+  background-color: #b5121b;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  top: 0;
+  border-radius: 50%;
+  background-image: none;
+  position: fixed;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  color: #b5121b;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  color: #b5121b;
+}
+
+.carousel-caption{
+  bottom: 0;
+}
+
+.card{
+  border: 0.5em black;
+}
+
+.container{
+  height: 80%;
+}
+
+.card-list{
+  list-style-type: none;
+}
+
+.popup{
+  width: 100%;
+}
